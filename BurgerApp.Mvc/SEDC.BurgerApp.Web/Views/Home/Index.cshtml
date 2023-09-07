@@ -1,0 +1,63 @@
+﻿@using SEDC.BurgerApp.BLL.DTOs.Locations;
+<div class="text-center">
+    <h1>About our Burger Shop</h1>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <h5>Welcome to our Burger Shop!</h5>
+    <p>
+        At our Burger Shop, we pride ourselves on serving the most delicious and satisfying burgers in town. We believe that a great burger starts with quality ingredients and a passion for creating mouthwatering flavors. From classic favorites to unique and innovative creations, we offer a diverse menu that caters to all tastes and preferences.
+
+        Our dedicated team of chefs and staff work tirelessly to ensure that every burger we serve is cooked to perfection and prepared with the utmost care. We source the finest ingredients, including fresh locally-sourced produce, premium meats, and artisanal bread, to deliver a memorable dining experience to our valued customers.
+
+        Variety is the spice of life, and we understand that everyone has different preferences and dietary needs. That's why we offer a range of options to suit various dietary preferences, including vegetarian and vegan burgers, gluten-free buns, and customizable toppings. We believe that everyone deserves to enjoy a delicious burger, regardless of their dietary restrictions.
+
+        In addition to our exceptional burgers, we also offer a selection of delectable sides, such as crispy fries, onion rings, and garden-fresh salads. And to quench your thirst, we have a wide range of beverages, including refreshing sodas, shakes, and handcrafted specialty drinks.
+
+        At our Burger Shop, we strive to create a welcoming and friendly atmosphere where you can relax, enjoy a great meal, and make lasting memories with friends and family. Whether you're grabbing a quick bite during your lunch break or having a leisurely dinner, our attentive staff is dedicated to providing excellent customer service and ensuring your satisfaction.
+
+        We take pride in being an active member of the community and strive to give back whenever possible. From sponsoring local events to supporting charitable initiatives, we believe in making a positive impact beyond our delicious food.
+
+        Thank you for choosing our Burger Shop. We look forward to serving you and sharing the joy of our mouthwatering burgers. Come and indulge in the flavors that will keep you coming back for more!
+    </p>
+
+   
+    @if (ViewBag.TotalOrders > 0)
+    {
+        <hr />
+        <br />
+
+        <h3>Most Popular Burger:</h3>
+        <p>@ViewBag.MostPopularBurger.Key</p>
+
+        <hr />
+        <br />
+
+        <p>Total Orders Serviced: @ViewBag.TotalOrders</p>
+
+        <hr />
+        <br />
+
+        <p>Average Price of an Order: @ViewBag.AveragePrice $</p>
+
+        <hr />
+        <br />
+    }
+
+    @if (ViewBag.TotalLocations > 0)
+    {
+        <h3>Locations:</h3>
+
+        @foreach (LocationDTO location in ViewBag.Locations)
+        {
+            <p>@location.Name, @location.Address</p>
+        }
+
+        <hr />
+        <br />
+    }
+
+
+
+</div>

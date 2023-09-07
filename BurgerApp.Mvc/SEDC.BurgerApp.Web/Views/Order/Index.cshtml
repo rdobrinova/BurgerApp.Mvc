@@ -1,0 +1,70 @@
+﻿@using SEDC.BurgerApp.BLL.DTOs.Orders;
+@model IEnumerable<OrderDTO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<table class="table table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>
+                FullName
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                IsDelivered
+            </th>
+            <th>
+                Burger
+            </th>
+            <th>
+                <a class="btn btn-secondary"
+                   asp-controller="Order"
+                   asp-action="Create">
+                    Add
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model)
+        {
+            <tr id="order-row-@order.Id">
+                <td>
+                    @order.FullName
+                </td>
+                <td>
+                    @order.Address
+                </td>
+                <td>
+                    @(order.IsDelivered ? "Yes" : "No")
+                </td>
+                <td>
+                    @order.Burger.Name
+                </td>
+                <td>
+                    <a class="btn btn-primary"
+                       asp-controller="Order"
+                       asp-action="Details"
+                       asp-route-id="@order.Id">
+                        Details
+                    </a>
+
+                    <a class="btn btn-primary"
+                       asp-controller="Order"
+                       asp-action="Edit"
+                       asp-route-id="@order.Id">
+                        Edit
+                    </a>
+
+                    <form class="d-inline" asp-controller="Order" asp-action="Delete" asp-route-id="@order.Id" method="post">
+                        <button class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

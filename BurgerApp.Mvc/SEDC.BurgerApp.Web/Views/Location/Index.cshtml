@@ -1,0 +1,72 @@
+﻿@using SEDC.BurgerApp.BLL.DTOs.Locations;
+@model IEnumerable<LocationDTO>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+
+<table class ="table table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Address
+            </th>
+            <th>
+                OpensAt
+            </th>
+            <th>
+                ClosesAt
+            </th>
+            <th>
+        <a class="btn btn-secondary"
+           asp-controller="Location"
+           asp-action="Create">
+            Add
+        </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var location in Model)
+        {
+            <tr id="location-row-@location.Id">
+                <td>
+                    @location.Name
+                </td>
+                <td>
+                    @location.Address
+                </td>
+                <td>
+                    @(location.OpensAt)
+                </td>
+                <td>
+                    @(location.ClosesAt)
+                </td>
+                <td>
+                    <a class="btn btn-primary"
+                       asp-controller="Location"
+                       asp-action="Details"
+                       asp-route-id="@location.Id">
+                        Details
+                    </a>
+
+                    <a class="btn btn-primary"
+                       asp-controller="Location"
+                       asp-action="Edit"
+                       asp-route-id="@location.Id">
+                        Edit
+                    </a>
+
+                    <form class="d-inline" asp-controller="Location" asp-action="Delete" asp-route-id="@location.Id" method="post">
+                        <button class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

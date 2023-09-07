@@ -1,0 +1,12 @@
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\bin\Debug\net6.0\SEDC.BurgerApp.DAL.deps.json
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\bin\Debug\net6.0\SEDC.BurgerApp.DAL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\bin\Debug\net6.0\SEDC.BurgerApp.DAL.pdb
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.csproj.AssemblyReference.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.AssemblyInfoInputs.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.AssemblyInfo.cs
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.csproj.CoreCompileInputs.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\refint\SEDC.BurgerApp.DAL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\SEDC.BurgerApp.DAL.pdb
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.DAL\obj\Debug\net6.0\ref\SEDC.BurgerApp.DAL.dll

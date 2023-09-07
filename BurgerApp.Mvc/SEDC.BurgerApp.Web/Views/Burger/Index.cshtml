@@ -1,0 +1,73 @@
+﻿@using SEDC.BurgerApp.BLL.DTOs.Burgers;
+@model IEnumerable<BurgerDTO>
+
+
+<table class="table table-striped">
+    <thead class="table-light">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Price
+            </th>
+            <th>
+                IsVegeterian
+            </th>
+            <th>
+                IsVegan
+            </th>
+            <th>
+                HasFries
+            </th>
+            <th>
+                <a class="btn btn-secondary"
+                   asp-controller="Burger"
+                   asp-action="Create">
+                    Add
+                </a>
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var burger in Model)
+        {
+            <tr id="burger-row-@burger.Id">
+                <td>
+                    @burger.Name
+                </td>
+                <td>
+                    @burger.Price
+                </td>
+                <td>
+                    @(burger.IsVegetarian ? "Yes" : "No")
+                </td>
+                <td>
+                    @(burger.IsVegan ? "Yes" : "No")
+                </td>
+                <td>
+                    @(burger.HasFries ? "Yes" : "No")
+                </td>
+                <td>
+                    <a class="btn btn-primary"
+                       asp-controller="Burger"
+                       asp-action="Details"
+                       asp-route-id="@burger.Id">
+                        Details
+                    </a>
+
+                    <a class="btn btn-primary"
+                       asp-controller="Burger"
+                       asp-action="Edit"
+                       asp-route-id="@burger.Id">
+                        Edit
+                    </a>
+
+                    <form class="d-inline" asp-controller="Burger" asp-action="Delete" asp-route-id="@burger.Id" method="post">
+                        <button class="btn btn-danger">Remove</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

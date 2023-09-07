@@ -1,0 +1,43 @@
+﻿@using SEDC.BurgerApp.BLL.DTOs.Locations;
+@model CreateLocationDTO
+
+<h1>Create new Location</h1>
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@using (Html.BeginForm("Create", "Location", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Name)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.Address)
+        @Html.TextBoxFor(model => model.Address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.Address)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.OpensAt)
+        @Html.TextBoxFor(model => model.OpensAt, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.OpensAt)
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ClosesAt)
+        @Html.TextBoxFor(model => model.ClosesAt, new { @class = "form-control" })
+        @Html.ValidationMessageFor(model => model.ClosesAt)
+    </div>
+
+    <form asp-controller="Location" asp-action="Index" method="post">
+        <button class="btn btn-primary">Create</button>
+    </form>
+}
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

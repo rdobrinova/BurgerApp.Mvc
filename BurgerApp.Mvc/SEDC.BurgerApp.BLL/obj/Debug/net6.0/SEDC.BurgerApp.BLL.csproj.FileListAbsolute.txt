@@ -1,0 +1,15 @@
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\bin\Debug\net6.0\SEDC.BurgerApp.BLL.deps.json
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\bin\Debug\net6.0\SEDC.BurgerApp.BLL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\bin\Debug\net6.0\SEDC.BurgerApp.BLL.pdb
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\bin\Debug\net6.0\SEDC.BurgerApp.DAL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\bin\Debug\net6.0\SEDC.BurgerApp.DAL.pdb
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.csproj.AssemblyReference.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.AssemblyInfoInputs.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.AssemblyInfo.cs
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.csproj.CoreCompileInputs.cache
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.csproj.CopyComplete
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\refint\SEDC.BurgerApp.BLL.dll
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\SEDC.BurgerApp.BLL.pdb
+C:\Users\rozad\OneDrive\Desktop\SEDC Homework\7. MVC Homework\Homework - BurgerApp\SEDC.BurgerApp\SEDC.BurgerApp.BLL\obj\Debug\net6.0\ref\SEDC.BurgerApp.BLL.dll
